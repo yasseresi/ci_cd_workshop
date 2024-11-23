@@ -12,10 +12,17 @@
     "supertest": "^7.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": " nodemon index.js",
     "start": "node index.js"
   },
+  "jest": {
+
+  "setupFilesAfterEnv": [
+   "./testSetup.js"
+  ]
+
+ },
   "keywords": [],
   "author": "",
   "license": "ISC"
