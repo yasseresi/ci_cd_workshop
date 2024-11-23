@@ -1,5 +1,5 @@
 const app = require('./app'); // Import the app
-const TEST_PORT = 3002;
+const TEST_PORT = 3010;
 
 let server;
 
